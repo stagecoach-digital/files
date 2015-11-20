@@ -1108,4 +1108,14 @@ button[type=submit] {
   width: 100%;
 }
 
+div.responsive {
+  width: 100%;
+}
+
+div.donation-form-container.responsive {
+  padding: 0;
+  background: none;
+  border: none;
+}
+
 /*# sourceMappingURL=screen.css.map */
