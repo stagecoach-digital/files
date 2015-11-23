@@ -920,6 +920,14 @@ li.tender-row {
   }
 }
 
+@media (min-width: 600px) {
+  #billing_addr_street1_row input, #billing_addr_street2_row input {
+    width: 47.3684210526%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
 #billing_addr_street1_row {
   margin-bottom: 0.3333333333rem;
 }
