@@ -831,6 +831,10 @@ div.responsive {
   display: none;
 }
 
+.field-required {
+  background-image: none;
+}
+
 .field-required:after {
   content: "*";
   color: #ee2737;
@@ -1004,6 +1008,10 @@ li.tender-row {
 
 .donation-level-label-input-container input[type=radio] {
   width: 1rem;
+}
+
+.FormLabel {
+  font-weight: 700;
 }
 
 .text-prompt {
