@@ -614,6 +614,11 @@ label.valid, legend.valid {
   font-weight: 400;
 }
 
+div.responsive {
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 #donation-form {
   background: #dfe9f0;
   border: 1px solid #00468b;
@@ -859,7 +864,7 @@ li.tender-row {
   }
 }
 
-.form-intro, .don-standard-levels {
+.form-intro, .don-standard-levels, .donation-section-label > .FormLabelText {
   background: #00468b;
   color: white;
 }
@@ -1048,7 +1053,7 @@ li.tender-row {
   margin-bottom: 0;
 }
 
-button[type=submit] {
+#pstep_finish, button[type=submit] {
   background: #6a1b68;
   width: 100%;
   text-transform: uppercase;
@@ -1064,7 +1069,7 @@ button[type=submit] {
 }
 
 @media (max-width: 960px) {
-  button[type=submit] {
+  #pstep_finish, button[type=submit] {
     font-size: 21.6px;
     font-size: 1.35rem;
   }
@@ -1108,14 +1113,55 @@ button[type=submit] {
   width: 100%;
 }
 
-div.responsive {
-  width: 100%;
-}
-
 div.donation-form-container.responsive {
   padding: 0;
   background: none;
   border: none;
+}
+
+h2.section-header-container {
+  font-size: 32px;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  line-height: 1;
+  font-family: "Cambria", "Caladea", Georgia, Serif;
+  color: #00468b;
+  font-weight: bold;
+  font-style: italic;
+}
+
+@media (max-width: 960px) {
+  h2.section-header-container {
+    font-size: 28.8px;
+    font-size: 1.8rem;
+  }
+}
+
+.donation-section-label > .FormLabelText {
+  padding: 1rem 1rem;
+  margin-bottom: -1rem;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  text-align: center;
+  font-style: italic;
+  border-radius: 4px 4px 0 0;
+}
+
+@media (max-width: 960px) {
+  .donation-section-label > .FormLabelText {
+    font-size: 21.6px;
+    font-size: 1.35rem;
+  }
+}
+
+#payment_cc_container > h3 {
+  display: none;
+}
+
+#responsive_payment_typecc_type_row legend {
+  display: block;
 }
 
 /*# sourceMappingURL=screen.css.map */
