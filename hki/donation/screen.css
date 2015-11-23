@@ -1125,7 +1125,7 @@ li.tender-row {
   width: 100%;
 }
 
-div.form-content {
+div.form-row div.form-content {
   display: block;
 }
 
