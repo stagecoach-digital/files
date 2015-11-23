@@ -1125,6 +1125,10 @@ li.tender-row {
   width: 100%;
 }
 
+div.form-content {
+  display: block;
+}
+
 div.donation-form-container.responsive {
   padding: 0;
   background: none;
