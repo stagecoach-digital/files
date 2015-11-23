@@ -1066,6 +1066,10 @@ li.tender-row {
   font-size: 1.5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  color: white;
+  margin: 0;
+  float: none;
+  max-width: 100%;
 }
 
 @media (max-width: 960px) {
