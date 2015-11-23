@@ -874,8 +874,6 @@ li.tender-row {
 }
 
 .form-intro {
-  padding: 1rem 1rem;
-  margin-bottom: -1rem;
   font-size: 24px;
   font-size: 1.5rem;
   line-height: 1.1;
@@ -896,10 +894,11 @@ li.tender-row {
   border-radius: 0 0 4px 4px;
 }
 
-.form-donation-level .FormLabelText, .form-donation-level .field-required {
-  display: none;
-}
-
+/*.form-donation-level  {
+  .FormLabelText, .field-required { 
+    display: none;
+  }
+}*/
 .form-content {
   max-width: 100%;
   margin-left: auto;
@@ -1177,6 +1176,10 @@ h2.section-header-container {
     font-size: 21.6px;
     font-size: 1.35rem;
   }
+}
+
+.form-donation-level .field-required {
+  display: none;
 }
 
 #payment_cc_container > h3 {
