@@ -894,7 +894,7 @@ li.tender-row {
   border-radius: 0 0 4px 4px;
 }
 
-.form-donation-level .FormLabelText, .form-donation-level .field-required {
+.form-donation-level .FormLabelText, .form-donation-level span.field-required {
   display: none;
 }
 
