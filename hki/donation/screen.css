@@ -990,6 +990,15 @@ div.donation-level-amount-container {
   display: none;
 }
 
+.monthly div.donation-level-amount-container + div.donation-level-label-container {
+  display: inline-block;
+  margin: 0;
+}
+
+.monthly .donation-level-label-container:after {
+  content: '';
+}
+
 div.donation-level-input-container {
   padding: 0;
 }
