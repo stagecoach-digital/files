@@ -895,7 +895,7 @@ li.tender-row {
 }
 
 .form-donation-level .FormLabelText, .form-donation-level span.field-required {
-  display: none;
+  display: none !important;
 }
 
 .form-content {
