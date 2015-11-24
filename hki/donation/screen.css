@@ -986,6 +986,10 @@ div.donation-level-amount-container {
   margin-top: -6px;
 }
 
+.monthly div.donation-level-amount-container {
+  display: none;
+}
+
 div.donation-level-input-container {
   padding: 0;
 }
