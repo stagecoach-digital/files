@@ -1224,4 +1224,8 @@ h2.section-header-container {
   display: block;
 }
 
+.auto-opt-in-warning-message {
+  display: none;
+}
+
 /*# sourceMappingURL=screen.css.map */
