@@ -977,7 +977,7 @@ li.tender-row {
   border-top: 1px solid #00468b;
 }
 
-div.donation-level-amount-container, .donation-level-user-entered, .monthly div.donation-level-amount-container + div.donation-level-label-container, .donation-level-input-container, .donation-level-label-input-container {
+div.donation-level-amount-container, .donation-level-user-entered, .monthly div.donation-level-amount-container + div.donation-level-label-container, .donation-level-label-container, .donation-level-input-container, .donation-level-label-input-container {
   display: inline-block;
   vertical-align: middle;
 }
@@ -1011,6 +1011,14 @@ div.donation-level-container {
 
 .monthly div.donation-level-amount-container + div.donation-level-label-container:after {
   content: "";
+}
+
+.donation-level-label-container {
+  margin-top: -6px;
+}
+
+.donation-level-label-container:after {
+  content: ":\00a0";
 }
 
 .donation-level-input-container {
