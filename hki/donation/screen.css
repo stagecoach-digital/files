@@ -978,9 +978,22 @@ li.tender-row {
   border-top: 1px solid #00468b;
 }
 
-.donation-level-amount-container, .donation-level-user-entered, .donation-level-label-container, .donation-level-input-container, .donation-level-label-input-container {
+div.donation-level-amount-container, .donation-level-user-entered, .donation-level-label-container, .donation-level-input-container, .donation-level-label-input-container {
   display: inline-block;
   vertical-align: middle;
+}
+
+div.donation-level-amount-container {
+  margin-top: -6px;
+}
+
+div.donation-level-input-container {
+  padding: 0;
+}
+
+div.donation-level-container {
+  margin: 0;
+  border: none;
 }
 
 .donation-level-user-entered input {
@@ -1015,6 +1028,11 @@ li.tender-row {
 
 .donation-level-label-input-container input[type=radio] {
   width: 1rem;
+}
+
+label + div.donation-level-user-entered, legend + div.donation-level-user-entered {
+  margin: 0;
+  display: inline-block;
 }
 
 .FormLabel {
