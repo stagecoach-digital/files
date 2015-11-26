@@ -1186,6 +1186,7 @@ h2.section-header-container {
   color: #00468b;
   font-weight: bold;
   font-style: italic;
+  margin-bottom: .25rem;
 }
 
 @media (max-width: 960px) {
@@ -1226,6 +1227,12 @@ h2.section-header-container {
 
 .auto-opt-in-warning-message {
   display: none;
+}
+
+.required-message {
+  margin-bottom: 1rem;
+  font-style: italic;
+  font-family: "Cambria", "Caladea", Georgia, Serif;
 }
 
 /*# sourceMappingURL=screen.css.map */
