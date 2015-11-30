@@ -845,7 +845,7 @@ div.form-row {
 }
 
 .form-error input {
-  border: 1px solid #ee2737;
+  border: 1px solid #ee2737 !important;
 }
 
 li.tender-row {
