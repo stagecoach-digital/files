@@ -579,7 +579,7 @@ input[type=reset] {
   color: #ee2737;
 }
 
-label.error, legend.error, .ErrorMessage, .field-error-text {
+label.error, legend.error, .ErrorMessage, .field-error-text, div.responsive span.field-error-text {
   color: #ee2737;
 }
 
