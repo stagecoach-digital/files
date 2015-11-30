@@ -944,7 +944,7 @@ div.responsive div.form-error {
 }
 
 @media (min-width: 600px) {
-  #billing_addr_street1_row input, #billing_addr_street2_row input {
+  #billing_addr_street1_row input, #billing_addr_street2_row input, #tribute_notify_recip_street1_row input, #tribute_notify_recip_street2_row input {
     width: 47.3684210526%;
     float: right;
     margin-right: 0;
