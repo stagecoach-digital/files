@@ -840,7 +840,7 @@ div.responsive span.field-required {
   background-image: none;
 }
 
-.form-row {
+div.form-row {
   margin-bottom: 1rem;
 }
 
@@ -884,6 +884,13 @@ div.responsive div.ErrorMessage.page-error > span.field-error-text {
   color: inherit;
   font-size: inherit;
   padding: 0;
+}
+
+div.responsive div.form-error {
+  margin-top: 0;
+  padding: 0;
+  border: 0;
+  background: none;
 }
 
 .form-intro, .don-standard-levels, .donation-section-label > .FormLabelText {
