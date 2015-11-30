@@ -873,6 +873,19 @@ div.responsive div.ErrorMessage.page-error {
   }
 }
 
+div.responsive div.ErrorMessage.page-error > span.field-error-indicator {
+  display: none;
+}
+
+div.responsive div.ErrorMessage.page-error > span.field-error-text {
+  width: 100%;
+  background: none;
+  border: 0;
+  color: inherit;
+  font-size: inherit;
+  padding: 0;
+}
+
 .form-intro, .don-standard-levels, .donation-section-label > .FormLabelText {
   background: #00468b;
   color: white;
@@ -1232,6 +1245,22 @@ h2.section-header-container {
 
 .auto-opt-in-warning-message {
   display: none;
+}
+
+.small {
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+@media (max-width: 960px) {
+  .small {
+    font-size: 14.4px;
+    font-size: 0.9rem;
+  }
+}
+
+div.small {
+  margin-top: 0.5rem;
 }
 
 .required-message {
